@@ -26,6 +26,9 @@
     "peerDependencies": {
         "complexion": ">=0.1.1"
     },
+    "dependencies": {
+        "time-map": "*"
+    },
     "devDependencies": {
         "complexion": ">=0.1.1",
         "fid-umd": "*",
@@ -33,8 +36,7 @@
         "grunt-benchmark": "*",
         "grunt-cli": "*",
         "grunt-jasmine-node": "*",
-        "grunt-jslint": "*",
-        "time-map": "*"
+        "grunt-jslint": "*"
     },
     "license": "MIT",
     "scripts": {
