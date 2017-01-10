@@ -1,6 +1,6 @@
 {
     "name": "complexion-time-map",
-    "version": "0.1.1",
+    "version": "1.0.0",
     "description": "Time a JavaScript tokenizer",
     "author": "Tyler Akins <fidian@rumkin.com>",
     "homepage": "https://github.com/tests-always-included/complexion-time-map",
