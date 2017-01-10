@@ -3,10 +3,10 @@ Complexion Time Map
 
 Want to see if your tokenizer can be tweaked?  This library will provide profiling per [time-map].
 
-[![NPM][npm-image]][NPM]
-[![Build Status][travis-image]][Travis CI]
-[![Dependencies][dependencies-image]][Dependencies]
-[![Dev Dependencies][devdependencies-image]][Dev Dependencies]
+[![npm version][npm-badge]][npm-link]
+[![Build Status][travis-badge]][travis-link]
+[![Dependencies][dependencies-badge]][dependencies-link]
+[![Dev Dependencies][devdependencies-badge]][devdependencies-link]
 
 
 What Does This Do?
@@ -46,13 +46,14 @@ License
 This software is licensed under an [MIT license with an additional non-advertising clause](LICENSE.md).
 
 [Complexion]: https://github.com/tests-always-included/complexion
-[Dev Dependencies]: https://david-dm.org/tests-always-included/complexion-time-map#info=devDependencies
-[devdependencies-image]: https://david-dm.org/tests-always-included/complexion-time-map/dev-status.png
-[Dependencies]: https://david-dm.org/tests-always-included/complexion-time-map
-[dependencies-image]: https://david-dm.org/tests-always-included/complexion-time-map.png
+[dependencies-badge]: https://img.shields.io/david/tests-always-included/complexion-time-map.svg
+[dependencies-link]: https://david-dm.org/tests-always-included/complexion-time-map
+[devdependencies-badge]: https://img.shields.io/david/dev/tests-always-included/complexion-time-map.svg
+[devdependencies-link]: https://david-dm.org/tests-always-included/complexion-time-map#info=devDependencies
 [FidUmd]: https://github.com/fidian/fid-umd/
-[NPM]: https://npmjs.org/package/complexion-time-map
-[npm-image]: https://nodei.co/npm/complexion-time-map.png?downloads=true&stars=true
+[LICENSE]: LICENSE.md
+[npm-badge]: https://img.shields.io/npm/v/complexion-time-map.svg
+[npm-link]: https://npmjs.org/package/complexion-time-map
 [time-map]: https://github.com/tests-always-included/time-map
-[travis-image]: https://secure.travis-ci.org/tests-always-included/complexion-time-map.png
-[Travis CI]: http://travis-ci.org/tests-always-included/complexion-time-map
+[travis-badge]: https://img.shields.io/travis/tests-always-included/complexion-time-map/master.svg
+[travis-link]: http://travis-ci.org/tests-always-included/complexion-time-map
