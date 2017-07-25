@@ -1,6 +1,6 @@
 {
     "name": "complexion-time-map",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Time a JavaScript tokenizer",
     "author": "Tyler Akins <fidian@rumkin.com>",
     "homepage": "https://github.com/tests-always-included/complexion-time-map",
@@ -24,23 +24,19 @@
         "profile"
     ],
     "peerDependencies": {
-        "complexion": ">=0.1.1"
+        "complexion": "^0.2.0"
     },
     "dependencies": {
-        "time-map": "*"
+        "time-map": "^1.0.2"
     },
     "devDependencies": {
-        "complexion": ">=0.1.1",
-        "fid-umd": "*",
-        "grunt": "~0.4.1",
-        "grunt-benchmark": "*",
-        "grunt-cli": "*",
-        "grunt-jasmine-node": "*",
-        "grunt-jslint": "*"
+        "complexion": "^0.2.0",
+        "fid-umd": "^2.0.5",
+        "jasmine": "^2.6.0"
     },
     "license": "MIT",
     "scripts": {
-        "test": "grunt test",
+        "test": "jasmine && eslint .",
         "umd": "fid-umd lib/*.js"
     }
 }
