@@ -31,6 +31,7 @@
     },
     "devDependencies": {
         "complexion": "^0.2.0",
+        "eslint": "^4.3.0",
         "fid-umd": "^2.0.5",
         "jasmine": "^2.6.0"
     },
